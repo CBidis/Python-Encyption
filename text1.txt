@@ -1,0 +1,73 @@
+Python has a large standard library, commonly cited as one of Python's greatest strengths, providing tools suited to many tasks. This is deliberate and has been described as a batteries included Python philosophy. For Internet-facing applications a large number of standard formats and protocols (such as MIME and HTTP) are supported. Modules for creating graphical user interfaces, connecting to relational databases, pseudorandom number generators, arithmetic with arbitrary precision decimals,[65] manipulating regular expressions, and doing unit testing are also included.
+Some parts of the standard library are covered by specifications (for example, the WSGI implementation wsgiref follows PEP 333[66]), but the majority of the modules are not. They are specified by their code, internal documentation, and test suite (if supplied). However, because most of the standard library is cross-platform Python code, there are only a few modules that must be altered or completely rewritten by alternative implementations.
+The standard library is not essential to run Python or embed Python within an application. Blender 2.49, for instance, omits most of the standard library.
+As of January 2015, the Python Package Index, the official repository of third-party software for Python, contains more than 54,000 packages offering a wide range of functionality, including
+The Old Church of St Nidan, Llanidan, is a medieval church in Anglesey, Wales. The first church on the site was established in the 7th century by St Nidan, the confessor of the monastery at Penmon, Anglesey; the oldest parts of the present structure date from the 14th century. In about 1500 a second nave was added, and an arcade (pictured) was built between the two naves. Between 1839 and 1843 a new church was built nearby, partly due to the cost of repairing St Nidan's. A sandstone chest containing bone fragments (which local tradition holds to be those of St Nidan) and a 13th-century font were relocated to the new church. Much of the old church was demolished, leaving part of the western end and the central arcade. It has been restored and is occasionally open to the public. The remaining parts of the church are a Grade II* listed building. In the 12th century, Gerald of Wales said that the church possessed a curious stone shaped like a thigh that would always return by the next day no matter how far away it was taken. A Norman earl, he said, had chained it to a large rock and thrown it into the sea, only for the stone to return to the church by the following morning. Stede Bonnet (c. 1688 – December 13, 1718) was an early 18th-century Barbadian pirate, sometimes called "the gentleman pirate". Because of marital problems, Bonnet turned to piracy in the summer of 1717. He bought a sailing vessel, named it Revenge, and traveled with his paid crew along the American eastern seaboard, capturing other vessels and burning down Barbadian ships. After arriving in Nassau, Bonnet met the infamous pirate Blackbeard. Incapable of leading his crew, Bonnet temporarily ceded his ship's command to Blackbeard. Before separating in December 1717, Blackbeard and Bonnet plundered and captured merchant ships along the East Coast. After Bonnet failed to capture the Protestant Caesar, his crew abandoned him to join Blackbeard on the Queen Anne's Revenge. Bonnet stayed on Blackbeard's ship as a guest, and did not command a crew again until summer 1718, when he was pardoned by North Carolina governor Charles Eden and received clearance to go privateering against Spanish shipping. By July 1718, he had returned to piracy. In late August and September of that year, Colonel William Rhett led a naval expedition against pirates on the Cape Fear River. Rhett and Bonnet's men fought each other for hours, but the outnumbered pirates ultimately surrendered. Rhett arrested the pirates and brought them to Charleston in early October. Bonnet was brought to trial, and sentenced to death. After his request for clemency was turned down, Bonnet was hanged in Charleston on December 10, 1718. To quote Karl Marx, blue boxing has
+always been the most noble form of
+phreaking. As opposed to such things
+as using an MCI code to make a free
+fone call, which is merely mindless
+pseudo-phreaking, blue boxing is
+actual interaction with the Bell
+System toll network. It is likewise
+advisable to be more cautious when
+blue boxing, but the careful phreak
+will not be caught, regardless of what
+type of switching system he is under.
+  In this part, I will explain how and
+why blue boxing works, as well as
+where. In later parts, I will give
+more practical information for blue
+boxing and routing information.
+  To begin with, blue boxing is simply
+communicating with trunks. Trunks must
+not be confused with subscriber lines
+(or "customer loops") which are
+standard telefone lines. Trunks are
+those lines that connect central
+offices. Now, when trunks are not in
+use (i.e., idle or "on-hook" state)
+they have 2600Hz applied to them. If
+they are two-way trunks, there is
+2600Hz in both directions. When a
+trunk IS in use (busy or "off-hook"
+state"), the 2600Hz is removed from
+the side that is off-hook. The 2600Hz
+is therefore known as a supervisory
+signal, because it indicates the
+status of a trunk; on hook (tone) or
+off-hook (no tone). Note also that
+2600Hz denoted SF (single frequency)
+signalling and is "in-band." This is
+very important. "In-band" means that
+is is within the band of frequencies
+that may be transmitted over normal
+telefone lines. Other SF signals, such
+as 3700Hz are used also. However, they
+cannot be carried over the telefone
+network normally (they are "out-of-
+band") and are therefore not able to
+be taken advantage of as 2600Hz is.
+  Back to trunks. Let's take a
+hypothetical phone call. You pick up
+your fone and dial 1+806-258-1234
+(your good friend in Armarillo,
+Texas). For ease, we'll assume that
+you are on #5 Crossbar switching and
+not in the 806 area. Your central
+office (CO) would recognize that
+806 is a foreign NPA, so it would
+route the call to the toll centre
+that serves you. [For the sake of
+accuracy here, and for the more
+experienced readers, note that the
+CO in question is a class 5 with
+LAMA that uses out-of-band SF
+supervisory signalling]. Depending
+on where you are in the country, the
+call would leave your toll centre
+(on more trunks) to another toll
+centre, or office of higher "rank".
+Then it would be routed to central
+office 806-258 eventually and the
+call would be completed.
